@@ -20,9 +20,9 @@ object loopsWithMap extends App {
 
   println(empMap.getClass)
   empMap.foreach(x => println(s"key: ${x._1}, value: ${x._2}"))
-  empMap.keys.foreach((movie) => println(movie))
+  empMap.keys.foreach((key) => println(key))
   empMap.keys.foreach(println)
-  empMap.values.foreach((rating) => println(rating))
+  empMap.values.foreach((value) => println(value))
 
 }
 
